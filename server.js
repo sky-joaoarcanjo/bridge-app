@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-require('./modules/routes')(app)
+require('./src/routes')(app)
 
 const port = process.env.PORT || 3000
 

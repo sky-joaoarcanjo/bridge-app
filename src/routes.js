@@ -1,6 +1,6 @@
 const bp = require('body-parser')
 const service = require('./service')
-const request = require('./ALRequest')
+const request = require('./AMRequest')
 
 module.exports = function(app) {
     app.use(bp.json())

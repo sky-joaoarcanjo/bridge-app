@@ -8,7 +8,7 @@ const _valuesPartition = '='
  * The left value is the field name from elastic and the right value is the field name to sent to alertmanager
 */
 const labelsNames = {
-    'kubernetes.namespace_name': 'namespace',
+    'service.environment': 'environment',
     'service.name': 'application',
     'event.endpoint': 'endpoint',
     'anomalyScore': 'alertanomalyscore',
